@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webCalculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Made By : Fazeel Ahmed</h1>
+    <div class="main">
+
+        <div>
+            <input type="text" id="cal-screen" placeholder="" disabled>
+            <input type="text" id="cal-answer" disabled>
+        </div>
+        <div class="btn">
+            <div>
+                <button class="clear_btn" onclick="clear_screen()">C</button>
+                <button class="del_btn" onclick="del()">Del</button>
+                <button onclick="cal('%')">%</button>
+                <button onclick="cal('/')">&#247;</button>
+            </div>
+            <div>
+
+                <button onclick="cal('7')">7</button>
+                <button onclick="cal('8')">8</button>
+                <button onclick="cal('9')">9</button>
+                <button onclick="cal('*')">x</button>
+            </div>
+
+            <div>
+                <button onclick="cal('4')">4</button>
+                <button onclick="cal('5')">5</button>
+                <button onclick="cal('6')">6</button>
+                <button onclick="cal('-')">-</button>
+            </div>
+
+            <div>
+                <button onclick="cal('1')">1</button>
+                <button onclick="cal('2')">2</button>
+                <button onclick="cal('3')">3</button>
+                <button onclick="cal('+')">+</button>
+            </div>
+
+            <div>
+
+                <button onclick="cal('0')">0</button>
+                <button onclick="cal('00')">00</button>
+                <button onclick="cal('.')">.</button>
+                <button onclick="calculate()">=</button>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

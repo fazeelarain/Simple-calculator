@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-image: linear-gradient( 89.9deg,  rgba(208,246,255,1) 0.1%, rgba(255,237,237,1) 47.9%, rgba(255,255,231,1) 100.2% );
+}
+
+h1{
+    text-align: center;
+    font-size: 32fipx;
+    margin-top: 60px;
+    font-family: 'Baloo Bhai 2', cursive;
+   
+}
+.main{
+    box-shadow: 10px 10px 10px #aaaaaa;
+    width: 350px;
+    height: 550px;
+    margin: 0 auto;
+    border: 1px solid #bbbfca;
+    margin-top: 80px;
+    border-radius: 5px;
+    background-image: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% );
+    
+}
+
+input{
+    margin-left:   13px;
+    width: 320px;
+    height: 35px;
+   background-color: #dee1dd;
+   color: rgb(41, 40, 40);
+   padding-right: 3px;
+    text-align: right;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    /* border-radius: 2px; */
+}
+#cal-screen{
+    margin-top: 15px;
+    
+}
+#cal-answer{
+    margin-bottom: 5px;
+}
+
+.btn{
+    margin-left: 11px;
+    margin-top: 30px;
+}
+button{
+    width: 79px;
+    height: 70px;
+    margin: 4px 0px;
+    padding: 3px 3px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 9px;
+    transition-duration: 0.3s;
+
+}
+
+button:hover {
+    background-color:#654062;
+    color: white;
+  }
+
+.clear_btn{
+    background-color:#FF8F56;
+    color: white;
+}
+.clear_btn:hover{
+    background-color:#FF8F56;
+    color: white;
+}
